@@ -48,7 +48,7 @@ async def start(client, message):
             InlineKeyboardButton('💥 ᴍᴏᴠɪᴇs ♥️', url='https://t.me/+FLDON7C7UlYyODEx'),
             ],[
             InlineKeyboardButton('💞 sᴜᴘᴘᴏʀᴛ 💞', url='https://t.me/MX_Support_Bot'),
-            InlineKeyboardButton('👩‍💻 ʀᴇᴘᴏ ✨', url='https://t.me/Ayita_P_S'),
+            InlineKeyboardButton('👩‍💻 ʀᴇᴘᴏ ✨', url='https://t.me/Sp_I_dE_x'),
             ],[
             InlineKeyboardButton('👋 ᴇxᴛʀᴀ ʙᴜᴛᴛᴏɴs 👋', callback_data='about'),
             ],[
@@ -98,7 +98,7 @@ async def start(client, message):
             InlineKeyboardButton('💥 ᴍᴏᴠɪᴇs ♥️', url='https://t.me/+FLDON7C7UlYyODEx'),
             ],[
             InlineKeyboardButton('💞 sᴜᴘᴘᴏʀᴛ 💞', url='https://t.me/MX_Support_Bot'),
-            InlineKeyboardButton('👩‍💻 ʀᴇᴘᴏ ✨', url='https://t.me/MX_Networks'),
+            InlineKeyboardButton('👩‍💻 ʀᴇᴘᴏ ✨', url='https://t.me/Sp_I_dE_x'),
             ],[
             InlineKeyboardButton('👋 ᴇxᴛʀᴀ ʙᴜᴛᴛᴏɴs 👋', callback_data='about'),
             ],[
