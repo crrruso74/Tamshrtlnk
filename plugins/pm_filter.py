@@ -446,8 +446,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('💞 sᴜᴘᴘᴏʀᴛ 💞', url='https://t.me/MX_Support_Bot'),
             InlineKeyboardButton('👩‍💻 ʀᴇᴘᴏ ✨', url='https://t.me/Sp_I_dE_x'),
             ],[
-            InlineKeyboardButton('👋 ᴇxᴛʀᴀ ʙᴜᴛᴛᴏɴs 👋', callback_data='about'),
-            ],[
+            InlineKeyboardButton('🖐️ ʜᴇʟᴘ', callback_data='about'),
             InlineKeyboardButton('🔐 ᴄʟᴏsᴇ 🔐', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -456,7 +455,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-        await query.answer('Sᴜᴘᴘᴏʀᴛ TᴀᴍɪʟᴀɴBᴏᴛsZ')
+        await query.answer('Sᴜᴘᴘᴏʀᴛ ɪPᴏᴘᴋᴀʀɴBᴏᴛs')
     elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('Manual Filter', callback_data='manuelfilter'),
@@ -476,7 +475,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🙄 ᴏᴡɴᴇʀ 🙄', url='https://t.me/Ayita_P_S'),
+            InlineKeyboardButton('😊 ᴏᴡɴᴇʀ 😊', url='https://t.me/Ayita_P_S'),
             InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇs 🤖', url='https://t.me/MX_Networks'),
         ],[
             InlineKeyboardButton('👩‍💻 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 👩‍💻', url='https://GitHub.Com'), #Please Change your bot username
