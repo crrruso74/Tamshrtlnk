@@ -50,8 +50,7 @@ async def start(client, message):
             InlineKeyboardButton('💞 sᴜᴘᴘᴏʀᴛ 💞', url='https://t.me/MX_Support_Bot'),
             InlineKeyboardButton('👩‍💻 ʀᴇᴘᴏ ✨', url='https://t.me/Sp_I_dE_x'),
             ],[
-            InlineKeyboardButton('👋 ᴇxᴛʀᴀ ʙᴜᴛᴛᴏɴs 👋', callback_data='about'),
-            ],[
+            InlineKeyboardButton('🖐️ ʜᴇʟᴘ', callback_data='about'),
             InlineKeyboardButton('🔐 ᴄʟᴏsᴇ 🔐', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -100,8 +99,7 @@ async def start(client, message):
             InlineKeyboardButton('💞 sᴜᴘᴘᴏʀᴛ 💞', url='https://t.me/MX_Support_Bot'),
             InlineKeyboardButton('👩‍💻 ʀᴇᴘᴏ ✨', url='https://t.me/Sp_I_dE_x'),
             ],[
-            InlineKeyboardButton('👋 ᴇxᴛʀᴀ ʙᴜᴛᴛᴏɴs 👋', callback_data='about'),
-            ],[
+            InlineKeyboardButton('🖐️ ʜᴇʟᴘ', callback_data='about'),
             InlineKeyboardButton('🔐 ᴄʟᴏsᴇ 🔐', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -252,7 +250,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🚸 ᴅᴇʟᴇᴛᴇ', callback_data='close_data') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('💥 sʜᴀʀᴇ & sᴜᴘᴘᴏʀᴛ ᴜs 💥', url='https://t.me/share/url?url=t.me/iPapkarn_Bot') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
